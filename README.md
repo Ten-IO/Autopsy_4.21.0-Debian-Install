@@ -65,6 +65,19 @@ fls -v
 ils -v
 ```
 
+## Troubleshoot
+If there are module that is not able to load, in most such case: keyword search.
+```
+sudo chown -R $USER:$USER /PATHTO/autopsy # your path to your autopsy folder
+```
+OR if you don't want that
+```
+sudo autopsy # if in env /usr/local/bin or /usr/bin
+```
+```
+sudo ./PATHTO/autopsy # if binary not in env
+```
+
 ## Uninstall script
 I'm not well informed on how much can it remove - but it put away some libraries and binaries.
 
